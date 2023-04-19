@@ -13,7 +13,6 @@ class BasePage {
             await locator.scrollIntoView({ block: 'center', inline: 'center' });
         }
     }
-  }
-  
-  module.exports = BasePage;  
-  
+}
+
+module.exports = BasePage;  
